@@ -12,13 +12,13 @@ SMhasher
 | [BadHash](doc/BadHash.txt)                    |       524.81 |    95.70 | -|  47 | test FAIL                      |
 | [sumhash](doc/sumhash.txt)                    |      7168.98 |    31.10 | -| 363 | test FAIL                      |
 | [sumhash32](doc/sumhash32.txt)                |     23537.84 |    21.86 | -| 863 | UB, test FAIL                  |
-| [multiply_shift](doc/multiply_shift.txt)      |      3892.73 |    34.63 | 174.88 (3) | 345 | fails most tests                |
-| [pair_multiply_shift](doc/pair_multiply_shift)|     13604.46 |    31.71 | too slow   | 609 | UB, fails most tests            |
+| [multiply_shift](doc/multiply_shift.txt)      |      3892.73 |    34.63 | 174.88 (3) | 345 | fails most tests     |
+| [pair_multiply_shift](doc/pair_multiply_shift)|      3716.95 |    40.22 | 186.34 (3) | 609 | fails most tests     |
 | --------------------------                    |              |          |            |     |                                |
 | [crc32](doc/crc32.txt)                        |       392.07 |   129.91 | 201.59 (2) | 422 | insecure, 8590x collisions, distrib, PerlinNoise |
 | [md5_32a](doc/md5_32a.txt)                    |       353.74 |   630.50 | 794.71 (14)|4419 | 8590x collisions, distrib |
 | [sha1_32a](doc/sha1_32a.txt)                  |       353.03 |  1385.80 |1759.94 (5) |5126 | Cyclic low32, 36.6% distrib |
-| [md5-128](doc/md5-128.txt)                    |       353.76 |   637.87 | 805.13 (10) |4419 |                    |
+| [md5-128](doc/md5-128.txt)                    |       353.76 |   637.87 | 805.13 (10)|4419 |                    |
 | [sha1-160](doc/sha1-160.txt)                  |       364.95 |  1470.55 |1794.16 (13)|5126 | Comb/Cyclic low32  |
 | [sha2-224](doc/sha2-224.txt)                  |       147.13 |  1354.81 |1589.92 (12)|     | Comb low32    |
 | [sha2-224_64](doc/sha2-224_64.txt)            |       147.60 |  1360.10 |1620.93 (13)|     | Cyclic low32  |
